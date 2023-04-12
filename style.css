@@ -81,6 +81,15 @@ h1 {
   top: 2rem;
   left: 2rem;
 }
+.btnagain{
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
 
 .guess {
   background: none;
@@ -95,7 +104,7 @@ h1 {
   margin-bottom: 3rem;
 }
 
-.btn {
+.check {
   border: none;
   background-color: #eee;
   color: #222;
@@ -105,7 +114,8 @@ h1 {
   cursor: pointer;
 }
 
-.btn:hover {
+
+.check:hover {
   background-color: #ccc;
 }
 
